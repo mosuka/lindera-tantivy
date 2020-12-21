@@ -17,7 +17,8 @@ categories = ["text-processing"]
 license = "MIT"
 
 [dependencies]
-tantivy = "0.13"
+#tantivy = "0.13"
+tantivy = { git = "https://github.com/mosuka/tantivy", branch = "deserializable" }
 
 lindera = "0.7"
 lindera-core = "0.7"
