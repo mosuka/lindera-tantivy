@@ -18,7 +18,7 @@ license = "MIT"
 
 [dependencies]
 #tantivy = "0.13"
-tantivy = { git = "https://github.com/mosuka/tantivy", branch = "deserializable" }
+tantivy = { git = "https://github.com/tantivy-search/tantivy", rev = "670b6eaff6c62381c0ddcc44d6b3d2e82a3b3f1e" }
 
 lindera = "0.7"
 lindera-core = "0.7"
